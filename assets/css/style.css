@@ -1,0 +1,212 @@
+.discount {
+    background-color: #92c1e9;
+    text-align: center;
+    padding: 13px;
+}
+
+.discount a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+header {
+    display: flex;
+}
+
+.nav-bar {
+    width: 1000px;
+    height: 73px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-bar li {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+}
+
+.cat-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cat-text a {
+    color: black;
+    font-size: 17px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    width: 88%;
+    margin-left: 30px;
+
+}
+
+.cat-text h2 {
+    color: rgb(61, 66, 70);
+    font-size: 30px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+/* .card img:hover{
+    transform: scale(1,1);
+    transition: transform 0.3s;
+}  */
+
+
+.mission {
+    display: flex;
+    width: 80%;
+    margin: 50px 10%;
+
+}
+
+
+.mission h3 {
+    color: #92c1e9;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mission p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.mis-slogan {
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mis-slogan button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 13px 30px;
+    margin: 0 auto;
+}
+
+.collabs {
+    background-color: rgb(248, 248, 248);
+    padding: 25px 2%;
+    margin: 4% 0;
+}
+
+.col-card {
+    display: flex;
+}
+
+.col-card img {
+    width: 17%;
+}
+
+.collabs h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(61, 66, 70);
+}
+
+.news {
+    padding: 30px 5%;
+}
+
+.new-card span {
+    color: rgb(248, 124, 86);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.save-button {
+    background-color: rgb(27, 174, 75);
+    border: none;
+    color: white;
+    padding: 5px 21px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 13px;
+}
+
+.new-cards {
+    display: flex;
+}
+
+.new-card {
+    margin: 0 1%;
+}
+
+.new-card img {
+    border-radius: 8px;
+    width: 99%;
+}
+
+.foot {
+    display: flex;
+
+}
+
+footer {
+    padding: 3% 10%;
+    background-color: #92c1e9;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer input {
+    padding: 15px 12px;
+    border: none;
+    border-radius: 25px;
+}
+
+footer h3 {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.footer-list {
+    margin-left: 20px;
+    width: 80%;
+}
